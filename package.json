@@ -1,0 +1,22 @@
+{
+  "name": "gowhere-crawler",
+  "version": "1.0.0",
+  "description": "Crawl data for GoWhere project from http://piao.qunar.com/touch/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacleklm/GoWhere-Crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacleklm/GoWhere-Crawler/issues"
+  },
+  "homepage": "https://github.com/Jacleklm/GoWhere-Crawler#readme",
+  "dependencies": {
+    "puppeteer": "^1.20.0"
+  }
+}
