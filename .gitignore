@@ -60,5 +60,3 @@ typings/
 # next.js build output
 .next
 
-# 爬到的数据结果
-static/**/*.json
