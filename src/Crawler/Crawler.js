@@ -1,7 +1,7 @@
-// const indexCrawler = require('./components/indexCrawler')
+const indexCrawler = require('./components/indexCrawler')
 const cityCrawler = require('./components/cityCrawler')
-// const detailCrawler = require('./components/detailCrawler')
+const detailCrawler = require('./components/detailCrawler')
 
-// indexCrawler()
+indexCrawler()
 cityCrawler()
-// detailCrawler()
+detailCrawler()

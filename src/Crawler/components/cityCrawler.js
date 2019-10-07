@@ -3,7 +3,7 @@ const fs = require('fs');
 const { ConvertPinyin } = require('../helper/ConvertPinyin')
 
 const cityCrawler = async () => {
-  //  打开浏览器并打开去哪儿网移动端页面
+  //  打开浏览器并打开去哪儿网移动端城市选择页面
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto('http://piao.qunar.com/touch/toNewCityList.htm');
